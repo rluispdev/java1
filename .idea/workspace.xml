@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Subtracao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparacaoDeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Saudacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2eg1AikHQU3anu94DYeKqqjQGGy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,8 +32,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ComparacaoDeStrings.executor": "Run",
     "Application.Estudos.executor": "Run",
     "Application.Perfil.executor": "Run",
+    "Application.Saudacao.executor": "Run",
     "Application.Soma.executor": "Run",
     "Application.Subtracao.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -40,7 +43,14 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Subtracao">
+  <component name="RunManager" selected="Application.ComparacaoDeStrings">
+    <configuration name="ComparacaoDeStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComparacaoDeStrings" />
+      <module name="pratic1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Estudos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Estudos" />
       <module name="pratic1" />
@@ -48,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Perfil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Perfil" />
+    <configuration name="Saudacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Saudacao" />
       <module name="pratic1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,10 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparacaoDeStrings" />
+        <item itemvalue="Application.Saudacao" />
         <item itemvalue="Application.Subtracao" />
         <item itemvalue="Application.Soma" />
         <item itemvalue="Application.Estudos" />
-        <item itemvalue="Application.Perfil" />
       </list>
     </recent_temporary>
   </component>
