@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Conditional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic3/ResquestNumber.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Request number, check if is postive or negative.">
+      <change afterPath="$PROJECT_DIR$/src/pratic3/CompareNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ComparacaoDeStrings.executor": "Run",
+    "Application.CompareNumber.executor": "Run",
     "Application.Estudos.executor": "Coverage",
     "Application.Perfil.executor": "Run",
     "Application.PraticTwo.executor": "Run",
@@ -53,10 +53,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ResquestNumber">
+  <component name="RunManager" selected="Application.CompareNumber">
     <configuration name="ComparacaoDeStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComparacaoDeStrings" />
       <module name="pratic1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic3.CompareNumber" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratic3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,28 +101,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subtracao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Subtracao" />
-      <module name="pratic1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.CompareNumber" />
       <item itemvalue="Application.ResquestNumber" />
       <item itemvalue="Application.ComparacaoDeStrings" />
       <item itemvalue="Application.Estudos" />
       <item itemvalue="Application.Saudacao" />
-      <item itemvalue="Application.Subtracao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompareNumber" />
         <item itemvalue="Application.ResquestNumber" />
         <item itemvalue="Application.Estudos" />
         <item itemvalue="Application.ComparacaoDeStrings" />
         <item itemvalue="Application.Saudacao" />
-        <item itemvalue="Application.Subtracao" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +128,20 @@
       <option name="presentableId" value="Default" />
       <updated>1712311266294</updated>
     </task>
+    <task id="LOCAL-00001" summary="Request number, check if is postive or negative.">
+      <option name="closed" value="true" />
+      <created>1712668924162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712668924162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Request number, check if is postive or negative." />
+    <option name="LAST_COMMIT_MESSAGE" value="Request number, check if is postive or negative." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pratic1$Estudos.ic" NAME="Estudos Coverage Results" MODIFIED="1712570710918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
