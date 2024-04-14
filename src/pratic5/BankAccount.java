@@ -3,7 +3,7 @@ package pratic5;
 public class BankAccount {
     private int numberAccount;
     private double balance;
-    String titular;
+    public String titular;
 
     public double getBalance() {
         return balance;
