@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create new class for learning.">
-      <change afterPath="$PROJECT_DIR$/src/pratic4/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic4/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic4/MainPratic4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic4/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic4/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic4/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic5/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic5/MainP5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,35 +33,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BookOfTables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparacaoDeStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Estudos.executor&quot;: &quot;Coverage&quot;,
-    &quot;Application.Factor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainPratic4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Perfil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PraticTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResquestNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Saudacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Subtracao.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookOfTables.executor": "Run",
+    "Application.ComparacaoDeStrings.executor": "Run",
+    "Application.CompareNumber.executor": "Run",
+    "Application.Estudos.executor": "Coverage",
+    "Application.Factor.executor": "Run",
+    "Application.MainP5.executor": "Run",
+    "Application.MainPratic4.executor": "Run",
+    "Application.MenuCalc.executor": "Run",
+    "Application.PairOdd.executor": "Run",
+    "Application.Perfil.executor": "Run",
+    "Application.PraticTwo.executor": "Run",
+    "Application.ResquestNumber.executor": "Run",
+    "Application.Saudacao.executor": "Run",
+    "Application.Soma.executor": "Run",
+    "Application.Subtracao.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainPratic4">
-    <configuration name="BookOfTables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic3.BookOfTables" />
+  <component name="RunManager" selected="Application.MainP5">
+    <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic3.Factor" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic3.Factor" />
+    <configuration name="MainP5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic5.MainP5" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic3.*" />
+          <option name="PATTERN" value="pratic5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +128,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.MainP5" />
       <item itemvalue="Application.MainPratic4" />
       <item itemvalue="Application.Factor" />
       <item itemvalue="Application.PairOdd" />
-      <item itemvalue="Application.BookOfTables" />
       <item itemvalue="Application.MenuCalc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainP5" />
         <item itemvalue="Application.MainPratic4" />
         <item itemvalue="Application.MenuCalc" />
         <item itemvalue="Application.Factor" />
         <item itemvalue="Application.PairOdd" />
-        <item itemvalue="Application.BookOfTables" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712832246442</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create new class for learning.">
+      <option name="closed" value="true" />
+      <created>1713035009575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713035009575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
