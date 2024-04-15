@@ -25,6 +25,19 @@ public class MainP5 {
         System.out.println("Preço com desconto é " + product.getPrice() );
 
 
+        Student student1 = new Student("Rafael", 7.8, 9.0, 10);
+        Student student2 = new Student("Neymar", 6.7, 4.3, 7.3);
+
+        System.out.println("Aluno: " + student1.getName());
+        System.out.println("Notas: " + student1.getGrade1() + " , " + student1.getGrade2() + " , " + student1.getGrade3() );
+        System.out.println("Media: " + student1.returnMedia());
+
+
+
+
+
+
+
 
 
 

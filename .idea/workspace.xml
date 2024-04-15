@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create new class for learning: Set and Get.">
-      <change afterPath="$PROJECT_DIR$/src/pratic5/AgePeople.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic5/Product.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create new class for learning: Set and Get. Not print methods set.">
+      <change afterPath="$PROJECT_DIR$/src/pratic5/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic5/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic5/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic5/MainP5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic5/MainP5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713115518500</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create new class for learning: Set and Get. Not print methods set.">
+      <option name="closed" value="true" />
+      <created>1713119737361</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713119737361</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,7 +209,8 @@
     <MESSAGE value="To compare numbers." />
     <MESSAGE value="Create new class for learning." />
     <MESSAGE value="Create new class for learning: Set and Get." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new class for learning: Set and Get." />
+    <MESSAGE value="Create new class for learning: Set and Get. Not print methods set." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new class for learning: Set and Get. Not print methods set." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pratic1$Estudos.ic" NAME="Estudos Coverage Results" MODIFIED="1712570710918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
