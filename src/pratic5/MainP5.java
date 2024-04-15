@@ -33,6 +33,12 @@ public class MainP5 {
         System.out.println("Media: " + student1.returnMedia());
 
 
+        Book mybook = new Book("Biografia de Neymar.", "Neymar da Silva Santos.");
+        mybook.showDetails();
+        mybook.setAuthor("Gabi Gol.");
+        mybook.showDetails();
+
+
 
 
 
