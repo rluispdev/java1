@@ -7,21 +7,29 @@ public class Car {
     private double priceYear2;
     private double priceYear3;
 
-    public Car(String model) {
+    public void setModel(String model) {
         this.model = model;
     }
-    public Car(double priceYear1, double priceYear2, double priceYear3) {
+
+    public void setPriceYear1(double priceYear1) {
         this.priceYear1 = priceYear1;
+    }
+
+    public void setPriceYear2(double priceYear2) {
         this.priceYear2 = priceYear2;
+    }
+
+    public void setPriceYear3(double priceYear3) {
         this.priceYear3 = priceYear3;
     }
+
     public void showInformation() {
-        System.out.println(" O preço do carro em 2024 é de R$ %.2f ." + priceYear1);
-        System.out.println(" O preço do carro em 2025 é de R$ %.2f ." + priceYear2);
-        System.out.println(" O preço do carro em 2025 é de R$ %.2f ." + priceYear3);
-        System.out.println("A media em 03 anos será R$ %.2f . " + calcMedia(3));
-        System.out.println("O maior preço foi R$ %.2f" + calcHigherPrice());
-        System.out.println("O menor preço foi R$ %.2f" + calcLowestPrice());
+        System.out.println(String.format(" O preço do carro em 2024 é de R$ %.2f ." , priceYear1));
+        System.out.println(String.format(" O preço do carro em 2025 é de R$ %.2f ." , priceYear2));
+        System.out.println(String.format(" O preço do carro em 2026 é de R$ %.2f ." , priceYear3));
+        System.out.println(String.format("A media em 03 anos será R$ %.2f . " , calcMedia(3)));
+        System.out.println(String.format("O maior preço foi R$ %.2f" , calcHigherPrice()));
+        System.out.println(String.format("O menor preço foi R$ %.2f" , calcLowestPrice()));
     };
 
     double calcMedia(int mediaPrice){
@@ -53,8 +61,8 @@ public class Car {
         return lowestPrice;
 
     }
-
      };
+
 
 
 
