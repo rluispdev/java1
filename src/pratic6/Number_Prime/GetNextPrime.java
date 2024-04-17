@@ -1,4 +1,4 @@
-package pratic6;
+package pratic6.Number_Prime;
 
 public class GetNextPrime extends NumberPrime {
     public int getNextPrime( int lastPrime){
@@ -9,3 +9,4 @@ public class GetNextPrime extends NumberPrime {
         return  nextNumber;
     }
 }
+

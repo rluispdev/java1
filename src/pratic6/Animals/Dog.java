@@ -1,6 +1,4 @@
-package pratic6;
-
-import javax.sound.midi.Soundbank;
+package pratic6.Animals;
 
 public class Dog extends Animal {
 

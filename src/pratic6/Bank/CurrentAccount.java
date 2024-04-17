@@ -1,4 +1,4 @@
-package pratic6;
+package pratic6.Bank;
 
 public class CurrentAccount extends BankAccount {
     double tariff = 45.90;

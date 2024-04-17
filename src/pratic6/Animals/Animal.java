@@ -1,4 +1,4 @@
-package pratic6;
+package pratic6.Animals;
 
 public class Animal {
 

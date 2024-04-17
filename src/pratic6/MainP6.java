@@ -1,5 +1,13 @@
 package pratic6;
 
+import pratic6.Animals.Cat;
+import pratic6.Animals.Dog;
+import pratic6.Bank.CurrentAccount;
+import pratic6.Car.ModelCar;
+import pratic6.Number_Prime.CheckPrimeNumber;
+import pratic6.Number_Prime.GetNextPrime;
+import pratic6.Number_Prime.NumberPrime;
+
 public class MainP6 {
 
     public static void main(String[] args) {
@@ -59,31 +67,6 @@ public class MainP6 {
 
         NumberPrime primeList = new NumberPrime();
         primeList.listPrimes(20);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

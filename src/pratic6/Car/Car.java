@@ -1,4 +1,4 @@
-package pratic6;
+package pratic6.Car;
 
 public class Car {
 
@@ -32,7 +32,7 @@ public class Car {
         System.out.println(String.format("O menor preço foi R$ %.2f" , calcLowestPrice()));
     };
 
-    double calcMedia(int mediaPrice){
+    public double calcMedia(int mediaPrice){
         return (priceYear1 + priceYear2 + priceYear3) / mediaPrice;
     }
     private double calcHigherPrice(){

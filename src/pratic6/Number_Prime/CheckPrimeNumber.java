@@ -1,4 +1,4 @@
-package pratic6;
+package pratic6.Number_Prime;
 
 public class CheckPrimeNumber extends NumberPrime {
 

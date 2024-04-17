@@ -1,6 +1,4 @@
-package pratic6;
-
-import java.util.Scanner;
+package pratic6.Bank;
 
 public class BankAccount {
 

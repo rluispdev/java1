@@ -1,6 +1,6 @@
-package pratic6;
+package pratic6.Car;
 
-public class ModelCar extends Car{
+public class ModelCar extends Car {
 
     String fabactory;
 

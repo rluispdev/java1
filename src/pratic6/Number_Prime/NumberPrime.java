@@ -1,4 +1,4 @@
-package pratic6;
+package pratic6.Number_Prime;
 
 public class NumberPrime {
 
@@ -23,9 +23,6 @@ public class NumberPrime {
             System.out.println();
         }
     }
-
-
-
 }
 
 

@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Update Super class Car. Create Model&#10;and called in MainP6.">
-      <change afterPath="$PROJECT_DIR$/src/pratic6/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic6/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic6/CheckPrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic6/CurrentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic6/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic6/GetNextPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic6/NumberPrime.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create learning with Class Animals, Bank and Number Prime.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Animals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Bank/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Animals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/CheckPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Number_Prime/CheckPrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Bank/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Animals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/GetNextPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Number_Prime/GetNextPrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic6/MainP6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/MainP6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/ModelCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Car/ModelCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic6/NumberPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Number_Prime/NumberPrime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,7 @@
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic6.*" />
+          <option name="PATTERN" value="pratic6.Number_Prime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713264808465</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Create learning with Class Animals, Bank and Number Prime.">
+      <option name="closed" value="true" />
+      <created>1713356039786</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713356039786</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,7 +269,8 @@
     <MESSAGE value="Create new class for learning: Set and Get.Using a constructor." />
     <MESSAGE value="Create new Super class Car." />
     <MESSAGE value="Update Super class Car. Create Model&#10;and called in MainP6." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Super class Car. Create Model&#10;and called in MainP6." />
+    <MESSAGE value="Create learning with Class Animals, Bank and Number Prime." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create learning with Class Animals, Bank and Number Prime." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pratic1$Estudos.ic" NAME="Estudos Coverage Results" MODIFIED="1712570710918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
