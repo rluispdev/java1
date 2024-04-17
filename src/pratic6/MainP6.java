@@ -22,6 +22,69 @@ public class MainP6 {
         modelCar2.setPriceYear3(6800.25);
         modelCar2.calcMedia(3);
         modelCar2.showInformation();
+
+        Cat cat = new Cat();
+        cat.shakeAssCat();
+
+        Dog dog = new Dog();
+        dog.shakeAss();
+
+        System.out.println("Banco ____________________________");
+
+        CurrentAccount currentAccount = new CurrentAccount();
+        currentAccount.deposit(1000);
+        currentAccount.myBalance();
+        currentAccount.whithdraw(345.50);
+        currentAccount.whithdraw(100);
+        currentAccount.deposit(400.30);
+        currentAccount.myBalance();
+        currentAccount.whithdraw(1000);
+        currentAccount.ourTariff();
+        currentAccount.myBalance();
+        currentAccount.whithdraw(908.9);
+        currentAccount.whithdraw(4);
+        currentAccount.myBalance();
+        currentAccount.myBalance();
+        currentAccount.deposit(40);
+        currentAccount.whithdraw(50);
+
+        CheckPrimeNumber checkPrimeNumber = new CheckPrimeNumber();
+        checkPrimeNumber.checkPrimerNumber(4);
+        checkPrimeNumber.checkPrimerNumber(2);
+        checkPrimeNumber.checkPrimerNumber(456);
+
+        GetNextPrime getPrime = new GetNextPrime();
+        int nextPrime = getPrime.getNextPrime(92);
+        System.out.println("O proximo prime depois de 92 é: " + nextPrime);
+
+        NumberPrime primeList = new NumberPrime();
+        primeList.listPrimes(20);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 

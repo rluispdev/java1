@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create new Super class Car.">
-      <change afterPath="$PROJECT_DIR$/src/pratic6/ModelCar.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Update Super class Car. Create Model&#10;and called in MainP6.">
+      <change afterPath="$PROJECT_DIR$/src/pratic6/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic6/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic6/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic6/CheckPrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic6/CurrentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic6/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic6/GetNextPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic6/NumberPrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic6/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic6/MainP6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic6/MainP6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,29 +46,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BookOfTables.executor": "Run",
-    "Application.ComparacaoDeStrings.executor": "Run",
-    "Application.CompareNumber.executor": "Run",
-    "Application.Estudos.executor": "Coverage",
-    "Application.Factor.executor": "Run",
-    "Application.MainP5.executor": "Run",
-    "Application.MainP6.executor": "Run",
-    "Application.MainPratic4.executor": "Run",
-    "Application.MenuCalc.executor": "Run",
-    "Application.PairOdd.executor": "Run",
-    "Application.Perfil.executor": "Run",
-    "Application.PraticTwo.executor": "Run",
-    "Application.ResquestNumber.executor": "Run",
-    "Application.Saudacao.executor": "Run",
-    "Application.Soma.executor": "Run",
-    "Application.Subtracao.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BookOfTables.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparacaoDeStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Estudos.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.Factor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainP5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainP6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainPratic4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuCalc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Perfil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PraticTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResquestNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Saudacao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subtracao.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -233,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713189149639</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update Super class Car. Create Model&#10;and called in MainP6.">
+      <option name="closed" value="true" />
+      <created>1713264808465</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713264808465</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +258,8 @@
     <MESSAGE value="Create new class for learning: Set and Get. Not print methods set." />
     <MESSAGE value="Create new class for learning: Set and Get.Using a constructor." />
     <MESSAGE value="Create new Super class Car." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new Super class Car." />
+    <MESSAGE value="Update Super class Car. Create Model&#10;and called in MainP6." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Super class Car. Create Model&#10;and called in MainP6." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pratic1$Estudos.ic" NAME="Estudos Coverage Results" MODIFIED="1712570710918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
