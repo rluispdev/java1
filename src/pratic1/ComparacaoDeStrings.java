@@ -1,3 +1,5 @@
+package pratic1;
+
 public class ComparacaoDeStrings {
     String password = "123453";
 

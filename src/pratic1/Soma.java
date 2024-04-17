@@ -1,3 +1,4 @@
+package pratic1;
 
 public class Soma {
     int portion1 = 10;

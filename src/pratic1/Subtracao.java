@@ -1,3 +1,5 @@
+package pratic1;
+
 public class Subtracao {
     int minuend = 10;
     int subtrahend = 5;

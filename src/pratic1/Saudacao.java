@@ -1,3 +1,5 @@
+package pratic1;
+
 public class Saudacao {
     public static void main(String[] args){
         String name = "Rafael";
