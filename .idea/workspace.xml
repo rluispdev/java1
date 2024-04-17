@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Organizer pratic 6">
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/ConverterCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/FinanceConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Organizer pratica 1 and Create ConverterCurrency">
+      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/CalculatorRectangle/CalcGeometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/CalculatorRectangle/CalculatorRoomRect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComparacaoDeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic1/ComparacaoDeStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conditional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic1/Conditional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Estudos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic1/Estudos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic1/Perfil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Saudacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic1/Saudacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Soma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic1/Soma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Subtracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic1/Subtracao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/ConverterCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/ConveterCurrency/ConverterCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/FinanceConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/ConveterCurrency/FinanceConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -83,7 +79,7 @@
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic7.ConverterCurrency.*" />
+          <option name="PATTERN" value="pratic7.ConverterCurrency.ConveterCurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713356494790</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Organizer pratica 1 and Create ConverterCurrency">
+      <option name="closed" value="true" />
+      <created>1713390507567</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713390507567</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -280,7 +284,8 @@
     <MESSAGE value="Update Super class Car. Create Model&#10;and called in MainP6." />
     <MESSAGE value="Create learning with Class Animals, Bank and Number Prime." />
     <MESSAGE value="Organizer pratic 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organizer pratic 6" />
+    <MESSAGE value="Organizer pratica 1 and Create ConverterCurrency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizer pratica 1 and Create ConverterCurrency" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pratic1$Estudos.ic" NAME="Estudos Coverage Results" MODIFIED="1712570710918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

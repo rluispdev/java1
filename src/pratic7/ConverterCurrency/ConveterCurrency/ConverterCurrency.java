@@ -1,4 +1,4 @@
-package pratic7.ConverterCurrency;
+package pratic7.ConverterCurrency.ConveterCurrency;
 
 public class ConverterCurrency implements FinanceConverter {
     private double real;
