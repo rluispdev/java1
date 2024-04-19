@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Organizer pratica 1 and Create ConverterCurrency">
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/CalculatorRectangle/CalcGeometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/CalculatorRectangle/CalculatorRoomRect.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment=" Create CalculatorRoomRect">
+      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/BookTable/BookTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/BookTable/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/ConverterCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/ConveterCurrency/ConverterCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/FinanceConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/ConveterCurrency/FinanceConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
         <option value="Class" />
+        <option value="module-info" />
+        <option value="package-info" />
         <option value="Interface" />
       </list>
     </option>
@@ -44,31 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BookOfTables.executor": "Run",
-    "Application.ComparacaoDeStrings.executor": "Run",
-    "Application.CompareNumber.executor": "Run",
-    "Application.Estudos.executor": "Coverage",
-    "Application.Factor.executor": "Run",
-    "Application.Main7.executor": "Run",
-    "Application.MainP5.executor": "Run",
-    "Application.MainP6.executor": "Run",
-    "Application.MainPratic4.executor": "Run",
-    "Application.MenuCalc.executor": "Run",
-    "Application.PairOdd.executor": "Run",
-    "Application.Perfil.executor": "Run",
-    "Application.PraticTwo.executor": "Run",
-    "Application.ResquestNumber.executor": "Run",
-    "Application.Saudacao.executor": "Run",
-    "Application.Soma.executor": "Run",
-    "Application.Subtracao.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BookOfTables.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparacaoDeStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompareNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Estudos.executor&quot;: &quot;Coverage&quot;,
+    &quot;Application.Factor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainP5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainP6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainPratic4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MenuCalc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Perfil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PraticTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ResquestNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Saudacao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subtracao.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pratic7/ConverterCurrency/BookTable" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -270,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713390507567</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=" Create CalculatorRoomRect">
+      <option name="closed" value="true" />
+      <created>1713391676975</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713391676975</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,7 +295,8 @@
     <MESSAGE value="Create learning with Class Animals, Bank and Number Prime." />
     <MESSAGE value="Organizer pratic 6" />
     <MESSAGE value="Organizer pratica 1 and Create ConverterCurrency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organizer pratica 1 and Create ConverterCurrency" />
+    <MESSAGE value=" Create CalculatorRoomRect" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Create CalculatorRoomRect" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pratic1$Estudos.ic" NAME="Estudos Coverage Results" MODIFIED="1712570710918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

@@ -1,5 +1,6 @@
 package pratic7.ConverterCurrency;
 
+import pratic7.ConverterCurrency.BookTable.BookTable;
 import pratic7.ConverterCurrency.CalculatorRectangle.CalculatorRoomRect;
 import pratic7.ConverterCurrency.ConveterCurrency.ConverterCurrency;
 
@@ -14,6 +15,9 @@ public class Main7 {
         System.out.println("perimetro do Rectangulo " +  calcroom.getCalcPerimeter(4,10));
 
 
+        BookTable table = new BookTable();
+        String myTable = table.getShowTable(5);
+        System.out.println(myTable);
 
 
     }
