@@ -1,6 +1,8 @@
 package pratic7.ConverterCurrency;
 
 import pratic7.ConverterCurrency.BookTable.BookTable;
+import pratic7.ConverterCurrency.Calculate.Book;
+import pratic7.ConverterCurrency.Calculate.PhysicalProduct;
 import pratic7.ConverterCurrency.CalculatorRectangle.CalculatorRoomRect;
 import pratic7.ConverterCurrency.ConveterCurrency.ConverterCurrency;
 import pratic7.ConverterCurrency.TemperatureConvert.DefautTemperatureConvert;
@@ -22,11 +24,19 @@ public class Main7 {
         System.out.println(myTable);
 
         DefautTemperatureConvert temperatureConvert = new DefautTemperatureConvert();
-        double t = temperatureConvert.getFahrenheitToCelsius(98);
+        double t = temperatureConvert.getFahrenheitToCelsius(124);
         System.out.println(String.format("Temperatura Convertida de Fahrenheit para Celsius: %.0fº", t));
 
         double t2 = temperatureConvert.getCelsiusToFahrenheit(3);
-        System.out.printf(String.format("Temperatura Convertida de Celsius para  Fahrenheit: %.0fº ", t2));
+        System.out.println(String.format("Temperatura Convertida de Celsius para  Fahrenheit: %.0fº ", t2));
+
+        Book book = new Book();
+        double finalPrice = book.getCalculeFinalPrince(45.90, 15, 0);
+        System.out.println(String.format( "O preço final é R$ %.2f", finalPrice));
+
+        PhysicalProduct physicalProduct = new PhysicalProduct();
+        double product = physicalProduct.getCalculeFinalPrince(56.90, 50, 18);
+        System.out.println(String.format( "O preço final é R$ %.2f", product));
 
     }
 }
