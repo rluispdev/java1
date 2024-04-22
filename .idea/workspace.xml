@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment=" Create ConverterTemperature">
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Calculate/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Calculate/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Calculate/PhysicalProduct.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment=" Create Price">
+      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Marketable/Marketable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Marketable/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Marketable/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" afterDir="false" />
     </list>
@@ -297,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713525952897</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=" Create Price">
+      <option name="closed" value="true" />
+      <created>1713528809406</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1713528809406</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +334,18 @@
     <MESSAGE value=" Create CalculatorRoomRect" />
     <MESSAGE value=" Create Book Table" />
     <MESSAGE value=" Create ConverterTemperature" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Create ConverterTemperature" />
+    <MESSAGE value=" Create Price" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Create Price" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.MissingFormatArgumentException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pratic1$Estudos.ic" NAME="Estudos Coverage Results" MODIFIED="1712570710918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

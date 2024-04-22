@@ -5,6 +5,8 @@ import pratic7.ConverterCurrency.Calculate.Book;
 import pratic7.ConverterCurrency.Calculate.PhysicalProduct;
 import pratic7.ConverterCurrency.CalculatorRectangle.CalculatorRoomRect;
 import pratic7.ConverterCurrency.ConveterCurrency.ConverterCurrency;
+import pratic7.ConverterCurrency.Marketable.Product;
+import pratic7.ConverterCurrency.Marketable.Service;
 import pratic7.ConverterCurrency.TemperatureConvert.DefautTemperatureConvert;
 import pratic7.ConverterCurrency.TemperatureConvert.TemperatureConvert;
 
@@ -37,6 +39,13 @@ public class Main7 {
         PhysicalProduct physicalProduct = new PhysicalProduct();
         double product = physicalProduct.getCalculeFinalPrince(56.90, 50, 18);
         System.out.println(String.format( "O preço final é R$ %.2f", product));
+
+        Product product1 = new Product();
+        double returnValueProduct = product1.getPrice(61, 20, 23.90);
+
+        Service product2 = new Service();
+        double returnValuesService = product2.getPrice(5,   20, 27.50);
+
 
     }
 }
