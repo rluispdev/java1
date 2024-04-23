@@ -25,6 +25,13 @@ public class Main8 {
         namesPerson.add(person2);
         namesPerson.add(person3);
 
-        System.out.println(namesPerson);
+        System.out.println(namesPerson.get(0).getName());
+        System.out.println("Tamanho da lista: " + namesPerson.size());
+
+        System.out.println("Lista de Pessoas:");
+        for (Person person1 : namesPerson){
+            System.out.println(person1);
+        }
+
     }
 }

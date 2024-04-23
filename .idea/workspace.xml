@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a Class Person with name, age and a method toString that show this atributes. Create a ArrayList.">
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Add three people in the ArrayList.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic8/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic8/Main8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -322,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713871071890</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add three people in the ArrayList.">
+      <option name="closed" value="true" />
+      <created>1713871356860</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713871356860</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +363,8 @@
     <MESSAGE value=" Create Price" />
     <MESSAGE value=" Create Interface Maketable" />
     <MESSAGE value="Create a Class Person with name, age and a method toString that show this atributes. Create a ArrayList." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a Class Person with name, age and a method toString that show this atributes. Create a ArrayList." />
+    <MESSAGE value="Add three people in the ArrayList." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add three people in the ArrayList." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
