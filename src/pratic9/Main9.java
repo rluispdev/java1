@@ -1,5 +1,8 @@
 package pratic9;
 
+import pratic9.Product.PerishableProduct;
+import pratic9.Product.Product;
+
 import java.util.ArrayList;
 
 public class Main9 {
@@ -21,6 +24,10 @@ public class Main9 {
 
         System.out.println("Tamanho da Lista: " + listProduct.size());
         System.out.println("Item: " + listProduct.get(3));
+
+        var perishableProduct =  new PerishableProduct("Suco de Tangerina", 2.10, 2);
+        System.out.println(perishableProduct);
+        System.out.println(perishableProduct.date(3,4,2029));
 
 
     }

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Prints">
-      <change afterPath="$PROJECT_DIR$/src/pratic9/Main9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic9/Product.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a class product.">
+      <change afterPath="$PROJECT_DIR$/src/pratic9/Product/PerishableProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic9/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic9/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic9/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic9/Product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,20 +113,7 @@
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainP5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic5.MainP5" />
-      <module name="pratic1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratic5.*" />
+          <option name="PATTERN" value="pratic9.Product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,21 +134,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProdutoPerecivel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic9.Product.ProdutoPerecivel" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratic9.Product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
       <item itemvalue="Application.Main9" />
+      <item itemvalue="Application.ProdutoPerecivel" />
       <item itemvalue="Application.Main8" />
       <item itemvalue="Application.Main7" />
       <item itemvalue="Application.MainP6" />
-      <item itemvalue="Application.MainP5" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main9" />
+        <item itemvalue="Application.ProdutoPerecivel" />
         <item itemvalue="Application.Main8" />
         <item itemvalue="Application.Main7" />
         <item itemvalue="Application.MainP6" />
-        <item itemvalue="Application.MainP5" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713872166273</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Create a class product.">
+      <option name="closed" value="true" />
+      <created>1713906843400</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1713906843400</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +384,8 @@
     <MESSAGE value="Create a Class Person with name, age and a method toString that show this atributes. Create a ArrayList." />
     <MESSAGE value="Add three people in the ArrayList." />
     <MESSAGE value="Prints" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prints" />
+    <MESSAGE value="Create a class product." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a class product." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

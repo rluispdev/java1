@@ -1,4 +1,4 @@
-package pratic9;
+package pratic9.Product;
 
 public class Product {
     private String name;
