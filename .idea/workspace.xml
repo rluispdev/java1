@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Add three people in the ArrayList.">
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Prints">
+      <change afterPath="$PROJECT_DIR$/src/pratic9/Main9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic9/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic8/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic8/Main8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
     "Application.Factor.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
+    "Application.Main9.executor": "Run",
     "Application.MainP5.executor": "Run",
     "Application.MainP6.executor": "Run",
     "Application.MainPratic4.executor": "Run",
@@ -78,7 +80,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main8">
+  <component name="RunManager" selected="Application.Main9">
     <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic7.ConverterCurrency.Main7" />
       <module name="pratic1" />
@@ -98,6 +100,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pratic8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic9.Main9" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratic9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,34 +146,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPratic4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic4.MainPratic4" />
-      <module name="pratic1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratic4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.Main9" />
       <item itemvalue="Application.Main8" />
       <item itemvalue="Application.Main7" />
       <item itemvalue="Application.MainP6" />
       <item itemvalue="Application.MainP5" />
-      <item itemvalue="Application.MainPratic4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main9" />
         <item itemvalue="Application.Main8" />
         <item itemvalue="Application.Main7" />
         <item itemvalue="Application.MainP6" />
         <item itemvalue="Application.MainP5" />
-        <item itemvalue="Application.MainPratic4" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713871356860</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Prints">
+      <option name="closed" value="true" />
+      <created>1713872166273</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1713872166273</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +374,8 @@
     <MESSAGE value=" Create Interface Maketable" />
     <MESSAGE value="Create a Class Person with name, age and a method toString that show this atributes. Create a ArrayList." />
     <MESSAGE value="Add three people in the ArrayList." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add three people in the ArrayList." />
+    <MESSAGE value="Prints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prints" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
