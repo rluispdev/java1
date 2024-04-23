@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment=" Create Price">
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Marketable/Marketable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Marketable/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Marketable/Service.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment=" Create Interface Maketable">
+      <change afterPath="$PROJECT_DIR$/src/pratic8/Main8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic8/Person/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic7/ConverterCurrency/Main7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="module-info" />
         <option value="package-info" />
         <option value="Interface" />
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -44,45 +42,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BookOfTables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparacaoDeStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Estudos.executor&quot;: &quot;Coverage&quot;,
-    &quot;Application.Factor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainP5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainP6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainPratic4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Perfil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PraticTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResquestNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Saudacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Subtracao.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookOfTables.executor": "Run",
+    "Application.ComparacaoDeStrings.executor": "Run",
+    "Application.CompareNumber.executor": "Run",
+    "Application.Estudos.executor": "Coverage",
+    "Application.Factor.executor": "Run",
+    "Application.Main7.executor": "Run",
+    "Application.Main8.executor": "Run",
+    "Application.MainP5.executor": "Run",
+    "Application.MainP6.executor": "Run",
+    "Application.MainPratic4.executor": "Run",
+    "Application.MenuCalc.executor": "Run",
+    "Application.PairOdd.executor": "Run",
+    "Application.Perfil.executor": "Run",
+    "Application.PraticTwo.executor": "Run",
+    "Application.ResquestNumber.executor": "Run",
+    "Application.Saudacao.executor": "Run",
+    "Application.Soma.executor": "Run",
+    "Application.Subtracao.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pratic8" />
       <recent name="$PROJECT_DIR$/src/pratic7/ConverterCurrency/BookTable" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pratic8.Person" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main7">
+  <component name="RunManager" selected="Application.Main8">
     <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic7.ConverterCurrency.Main7" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pratic7.ConverterCurrency.ConveterCurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic8.Main8" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratic8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,34 +145,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic3.MenuCalc" />
-      <module name="pratic1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratic3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.Main8" />
       <item itemvalue="Application.Main7" />
       <item itemvalue="Application.MainP6" />
       <item itemvalue="Application.MainP5" />
       <item itemvalue="Application.MainPratic4" />
-      <item itemvalue="Application.MenuCalc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main8" />
         <item itemvalue="Application.Main7" />
         <item itemvalue="Application.MainP6" />
         <item itemvalue="Application.MainP5" />
         <item itemvalue="Application.MainPratic4" />
-        <item itemvalue="Application.MenuCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713528809406</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary=" Create Interface Maketable">
+      <option name="closed" value="true" />
+      <created>1713782460067</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1713782460067</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +346,8 @@
     <MESSAGE value=" Create Book Table" />
     <MESSAGE value=" Create ConverterTemperature" />
     <MESSAGE value=" Create Price" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Create Price" />
+    <MESSAGE value=" Create Interface Maketable" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Create Interface Maketable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
