@@ -45,7 +45,7 @@ public class Main10 {
 
         for(Animal item: animals){
             System.out.println(item);
-            Dog toy = (Dog) item;
+            if (item instanceof Dog toy )
             System.out.println(toy.getFavoriteToy());
         }
     }

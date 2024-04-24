@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a list of names players SoccersPlayers">
-      <change afterPath="$PROJECT_DIR$/src/pratic10/Animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic10/Animal/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic10/Animal/OtherAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a casting implicit and explicit on forEach.">
       <change beforePath="$PROJECT_DIR$/src/pratic10/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/Main10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -369,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713953730558</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Create a casting implicit and explicit on forEach.">
+      <option name="closed" value="true" />
+      <created>1713966261668</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713966261668</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -406,7 +410,8 @@
     <MESSAGE value="Create a class product." />
     <MESSAGE value="Create a class PerishableProduct" />
     <MESSAGE value="Create a list of names players SoccersPlayers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a list of names players SoccersPlayers" />
+    <MESSAGE value="Create a casting implicit and explicit on forEach." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a casting implicit and explicit on forEach." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
