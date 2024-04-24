@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create Cal Form. Without ForEach Calc.">
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create Cal Form. WITH ForEach Calc.">
+      <change afterPath="$PROJECT_DIR$/src/pratic10/Bank/MyBanck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic10/CalcArea/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/CalcArea/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic10/CalcArea/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/CalcArea/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic10/CalcArea/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/CalcArea/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic10/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/Main10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -393,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713994033698</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Create Cal Form. WITH ForEach Calc.">
+      <option name="closed" value="true" />
+      <created>1713995865722</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713995865722</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Request number, check if is postive or negative." />
     <MESSAGE value="To compare numbers." />
     <MESSAGE value="Create new class for learning." />
     <MESSAGE value="Create new class for learning: Set and Get." />
@@ -433,7 +438,8 @@
     <MESSAGE value="Create a casting implicit and explicit on forEach." />
     <MESSAGE value="Create instaceof." />
     <MESSAGE value="Create Cal Form. Without ForEach Calc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Cal Form. Without ForEach Calc." />
+    <MESSAGE value="Create Cal Form. WITH ForEach Calc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Cal Form. WITH ForEach Calc." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

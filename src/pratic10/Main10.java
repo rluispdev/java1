@@ -3,6 +3,7 @@ package pratic10;
 import pratic10.Animal.Animal;
 import pratic10.Animal.Dog;
 import pratic10.Animal.OtherAnimal;
+import pratic10.Bank.MyBanck;
 import pratic10.CalcArea.Circle;
 import pratic10.CalcArea.Form;
 import pratic10.CalcArea.Square;
@@ -93,5 +94,31 @@ public class Main10 {
 
             System.out.println("Area " + item.calcArea());
         }
+
+        var myBanckLeo = new MyBanck();
+        myBanckLeo.setAccount(789012);
+        myBanckLeo.setBalance(458000);
+
+        var myBanckVictor = new MyBanck();
+        myBanckVictor.setAccount(4509002);
+        myBanckVictor.setBalance(423999);
+
+        var myBanckLeila = new MyBanck();
+        myBanckLeila.setAccount(3440003);
+        myBanckLeila.setBalance(1200000);
+
+        ArrayList<MyBanck> bank = new ArrayList<MyBanck>();
+        bank.add(myBanckLeo);
+        bank.add(myBanckLeila);
+        bank.add(myBanckVictor);
+
+        int mostValue = 0;
+
+        for(MyBanck item : bank){
+            if (item.getBalance() > mostValue){
+                mostValue = item.getAccount();
+            }
+        }
+        System.out.println(" A maior conta é Conta: "  + mostValue);
     }
 }
