@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a class PerishableProduct">
-      <change afterPath="$PROJECT_DIR$/src/pratic10/Main10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic10/SoccersPlayers.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a list of names players SoccersPlayers">
+      <change afterPath="$PROJECT_DIR$/src/pratic10/Animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic10/Animal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic10/Animal/OtherAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic10/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/Main10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713911203869</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Create a list of names players SoccersPlayers">
+      <option name="closed" value="true" />
+      <created>1713953730558</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713953730558</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,7 +405,8 @@
     <MESSAGE value="Prints" />
     <MESSAGE value="Create a class product." />
     <MESSAGE value="Create a class PerishableProduct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a class PerishableProduct" />
+    <MESSAGE value="Create a list of names players SoccersPlayers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a list of names players SoccersPlayers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
