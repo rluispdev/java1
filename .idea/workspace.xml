@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a class product.">
-      <change afterPath="$PROJECT_DIR$/src/pratic9/Product/PerishableProduct.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a class PerishableProduct">
+      <change afterPath="$PROJECT_DIR$/src/pratic10/Main10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic10/SoccersPlayers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic9/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic9/Main9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic9/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic9/Product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
     "Application.CompareNumber.executor": "Run",
     "Application.Estudos.executor": "Coverage",
     "Application.Factor.executor": "Run",
+    "Application.Main10.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -60,6 +60,7 @@
     "Application.PairOdd.executor": "Run",
     "Application.Perfil.executor": "Run",
     "Application.PraticTwo.executor": "Run",
+    "Application.ProdutoPerecivel.executor": "Run",
     "Application.ResquestNumber.executor": "Run",
     "Application.Saudacao.executor": "Run",
     "Application.Soma.executor": "Run",
@@ -81,7 +82,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main9">
+  <component name="RunManager" selected="Application.Main10">
+    <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic10.Main10" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratic10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic7.ConverterCurrency.Main7" />
       <module name="pratic1" />
@@ -121,19 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainP6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic6.MainP6" />
-      <module name="pratic1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratic6.Number_Prime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProdutoPerecivel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic9.Product.ProdutoPerecivel" />
       <module name="pratic1" />
@@ -149,19 +150,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.Main10" />
       <item itemvalue="Application.Main9" />
       <item itemvalue="Application.ProdutoPerecivel" />
       <item itemvalue="Application.Main8" />
       <item itemvalue="Application.Main7" />
-      <item itemvalue="Application.MainP6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main10" />
         <item itemvalue="Application.Main9" />
         <item itemvalue="Application.ProdutoPerecivel" />
         <item itemvalue="Application.Main8" />
         <item itemvalue="Application.Main7" />
-        <item itemvalue="Application.MainP6" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713906843400</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Create a class PerishableProduct">
+      <option name="closed" value="true" />
+      <created>1713911203869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1713911203869</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +394,8 @@
     <MESSAGE value="Add three people in the ArrayList." />
     <MESSAGE value="Prints" />
     <MESSAGE value="Create a class product." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a class product." />
+    <MESSAGE value="Create a class PerishableProduct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a class PerishableProduct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
