@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a casting implicit and explicit on forEach.">
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create instaceof.">
+      <change afterPath="$PROJECT_DIR$/src/pratic10/CalcArea/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic10/CalcArea/Form.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic10/CalcArea/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic10/Product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic10/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/Main10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="module-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -373,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713966261668</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Create instaceof.">
+      <option name="closed" value="true" />
+      <created>1713966811622</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713966811622</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +424,8 @@
     <MESSAGE value="Create a class PerishableProduct" />
     <MESSAGE value="Create a list of names players SoccersPlayers" />
     <MESSAGE value="Create a casting implicit and explicit on forEach." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a casting implicit and explicit on forEach." />
+    <MESSAGE value="Create instaceof." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create instaceof." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
