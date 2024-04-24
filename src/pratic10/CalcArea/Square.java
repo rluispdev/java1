@@ -1,20 +1,15 @@
 package pratic10.CalcArea;
 
 public class Square implements Form{
-    int l;
+    private int l;
 
-    public Square(int l) {
+    public void setL(int l) {
         this.l = l;
     }
 
     @Override
-    public int calcArea() {
-        int area = l * l;
-        return area;
-    }
-
-    @Override
-    public String toString() {
-        return "A área do Quadrado é: " + calcArea() + " cm²";
+    public double calcArea() {
+      return l * l;
     }
 }
+

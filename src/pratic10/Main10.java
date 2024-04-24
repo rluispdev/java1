@@ -79,15 +79,19 @@ public class Main10 {
         int mediaPrice = totalPrice / 5;
         System.out.println("O preço medio dos produtos é: R$ " + mediaPrice + " reais.");
 
-        var circle = new Circle(8);
-        var square = new Square(19);
+       Circle circle = new Circle();
+       circle.setRaio(5);
+
+        var square = new Square();
+        square.setL(7);
 
         ArrayList<Form> forms = new ArrayList();
         forms.add(circle);
         forms.add(square);
 
         for (Form item: forms){
-            System.out.println(item);
+
+            System.out.println("Area " + item.calcArea());
         }
     }
 }
