@@ -3,14 +3,14 @@ package pratic10.CalcArea;
 public class Circle implements Form{
 
     int r;
-    double pi = 3.14;
+
 
     public Circle(int r) {
         this.r = r;
     }
 
     public double cicleCircunference(){
-        double area = pi * ( calcArea() * calcArea());
+        double area = Math.PI * ( r * r);
         return  area;
     }
 
@@ -23,6 +23,6 @@ public class Circle implements Form{
 
     @Override
     public String toString() {
-        return  "O raio do Círculo é  "  + r + " r² e: " + calcArea() + ". Logo, a área desse círculo é: " + cicleCircunference();
+        return  "O raio do Círculo é : "  + r + " Logo r² é: " + calcArea() + ". A área desse círculo é: " + cicleCircunference();
     }
 }
