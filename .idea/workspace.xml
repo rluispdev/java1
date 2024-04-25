@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create Cal Form. WITH ForEach Calc.">
-      <change afterPath="$PROJECT_DIR$/src/pratic10/Bank/MyBanck.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create Class Bank that return a most account.">
+      <change afterPath="$PROJECT_DIR$/src/pratic11/ListNumInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic11/Main11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic10/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic10/Main10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,34 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BookOfTables.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparacaoDeStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Estudos.executor&quot;: &quot;Coverage&quot;,
-    &quot;Application.Factor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main10.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainP5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainP6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainPratic4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Perfil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PraticTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProdutoPerecivel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ResquestNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Saudacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Soma.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Subtracao.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BookOfTables.executor": "Run",
+    "Application.ComparacaoDeStrings.executor": "Run",
+    "Application.CompareNumber.executor": "Run",
+    "Application.Estudos.executor": "Coverage",
+    "Application.Factor.executor": "Run",
+    "Application.Main10.executor": "Run",
+    "Application.Main11.executor": "Run",
+    "Application.Main7.executor": "Run",
+    "Application.Main8.executor": "Run",
+    "Application.Main9.executor": "Run",
+    "Application.MainP5.executor": "Run",
+    "Application.MainP6.executor": "Run",
+    "Application.MainPratic4.executor": "Run",
+    "Application.MenuCalc.executor": "Run",
+    "Application.PairOdd.executor": "Run",
+    "Application.Perfil.executor": "Run",
+    "Application.PraticTwo.executor": "Run",
+    "Application.ProdutoPerecivel.executor": "Run",
+    "Application.ResquestNumber.executor": "Run",
+    "Application.Saudacao.executor": "Run",
+    "Application.Soma.executor": "Run",
+    "Application.Subtracao.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pratic8" />
@@ -82,7 +83,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main10">
+  <component name="RunManager" selected="Application.Main11">
     <configuration name="Main10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic10.Main10" />
       <module name="pratic1" />
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic7.ConverterCurrency.Main7" />
+    <configuration name="Main11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic11.Main11" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic7.ConverterCurrency.ConveterCurrency.*" />
+          <option name="PATTERN" value="pratic11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,19 +151,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.Main11" />
       <item itemvalue="Application.Main10" />
       <item itemvalue="Application.Main9" />
       <item itemvalue="Application.ProdutoPerecivel" />
       <item itemvalue="Application.Main8" />
-      <item itemvalue="Application.Main7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main11" />
         <item itemvalue="Application.Main10" />
         <item itemvalue="Application.Main9" />
         <item itemvalue="Application.ProdutoPerecivel" />
         <item itemvalue="Application.Main8" />
-        <item itemvalue="Application.Main7" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713995865722</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Create Class Bank that return a most account.">
+      <option name="closed" value="true" />
+      <created>1713998509355</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713998509355</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="To compare numbers." />
     <MESSAGE value="Create new class for learning." />
     <MESSAGE value="Create new class for learning: Set and Get." />
     <MESSAGE value="Create new class for learning: Set and Get. Not print methods set." />
@@ -439,7 +447,8 @@
     <MESSAGE value="Create instaceof." />
     <MESSAGE value="Create Cal Form. Without ForEach Calc." />
     <MESSAGE value="Create Cal Form. WITH ForEach Calc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Cal Form. WITH ForEach Calc." />
+    <MESSAGE value="Create Class Bank that return a most account." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Class Bank that return a most account." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
