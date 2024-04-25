@@ -35,5 +35,24 @@ public class Main11 {
         Collections.sort(list);
         System.out.println(list);
 
+        var title1 = new Title("A pequena Sereia");
+        var title2 = new Title("Hércules");
+        var title3 = new Title("O Rei Leão");
+        var title4 = new Title("Os 101 Dálmatas");
+        var title5 = new Title("Mulan 2");
+
+        List<Title> stringList = new LinkedList<>();
+
+        stringList.add(title1);
+        stringList.add(title2);
+        stringList.add(title3);
+        stringList.add(title4);
+        stringList.add(title5);
+        System.out.println(stringList);
+
+        Collections.sort(stringList);
+        System.out.println(stringList);
+
+
     }
 }

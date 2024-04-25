@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create Class Bank that return a most account.">
-      <change afterPath="$PROJECT_DIR$/src/pratic11/ListNumInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic11/Main11.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a List for order numbers">
+      <change afterPath="$PROJECT_DIR$/src/pratic11/Title.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic11/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic11/Main11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -408,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713998509355</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Create a List for order numbers">
+      <option name="closed" value="true" />
+      <created>1714043135709</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1714043135709</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create new class for learning." />
     <MESSAGE value="Create new class for learning: Set and Get." />
     <MESSAGE value="Create new class for learning: Set and Get. Not print methods set." />
     <MESSAGE value="Create new class for learning: Set and Get.Using a constructor." />
@@ -448,7 +455,8 @@
     <MESSAGE value="Create Cal Form. Without ForEach Calc." />
     <MESSAGE value="Create Cal Form. WITH ForEach Calc." />
     <MESSAGE value="Create Class Bank that return a most account." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Class Bank that return a most account." />
+    <MESSAGE value="Create a List for order numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a List for order numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
