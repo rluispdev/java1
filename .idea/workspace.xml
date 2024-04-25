@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a List for order numbers">
-      <change afterPath="$PROJECT_DIR$/src/pratic11/Title.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a List for order strings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic11/Main11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic11/Main11.java" afterDir="false" />
     </list>
@@ -416,7 +415,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714043135709</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Create a List for order strings">
+      <option name="closed" value="true" />
+      <created>1714043979208</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1714043979208</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create new class for learning: Set and Get." />
     <MESSAGE value="Create new class for learning: Set and Get. Not print methods set." />
     <MESSAGE value="Create new class for learning: Set and Get.Using a constructor." />
     <MESSAGE value="Create new Super class Car." />
@@ -456,7 +462,8 @@
     <MESSAGE value="Create Cal Form. WITH ForEach Calc." />
     <MESSAGE value="Create Class Bank that return a most account." />
     <MESSAGE value="Create a List for order numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a List for order numbers" />
+    <MESSAGE value="Create a List for order strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a List for order strings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
