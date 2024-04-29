@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a request of a book on Google.">
-      <change afterPath="$PROJECT_DIR$/src/pratic12/Criptos.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a request of a Digital Coin.">
+      <change afterPath="$PROJECT_DIR$/src/pratic12/Recipe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pratic12/GoogleBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic12/GoogleBooks.java" afterDir="false" />
     </list>
@@ -64,6 +64,7 @@
     "Application.Perfil.executor": "Run",
     "Application.PraticTwo.executor": "Run",
     "Application.ProdutoPerecivel.executor": "Run",
+    "Application.Recipe.executor": "Run",
     "Application.ResquestNumber.executor": "Run",
     "Application.Saudacao.executor": "Run",
     "Application.Soma.executor": "Run",
@@ -85,7 +86,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Criptos">
+  <component name="RunManager" selected="Application.GoogleBooks">
     <configuration name="Criptos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic12.Criptos" />
       <module name="pratic1" />
@@ -138,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic9.Main9" />
+    <configuration name="Recipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic12.Recipe" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic9.Product.*" />
+          <option name="PATTERN" value="pratic12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,17 +156,17 @@
       <item itemvalue="Application.PraticTwo" />
       <item itemvalue="Application.Criptos" />
       <item itemvalue="Application.GoogleBooks" />
+      <item itemvalue="Application.Recipe" />
       <item itemvalue="Application.Main11" />
       <item itemvalue="Application.Main10" />
-      <item itemvalue="Application.Main9" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Criptos" />
         <item itemvalue="Application.GoogleBooks" />
+        <item itemvalue="Application.Recipe" />
+        <item itemvalue="Application.Criptos" />
         <item itemvalue="Application.Main11" />
         <item itemvalue="Application.Main10" />
-        <item itemvalue="Application.Main9" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714398298124</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Create a request of a Digital Coin.">
+      <option name="closed" value="true" />
+      <created>1714407293546</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1714407293546</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create new class for learning: Set and Get.Using a constructor." />
     <MESSAGE value="Create new Super class Car." />
     <MESSAGE value="Update Super class Car. Create Model&#10;and called in MainP6." />
     <MESSAGE value="Create learning with Class Animals, Bank and Number Prime." />
@@ -474,7 +482,8 @@
     <MESSAGE value="Create a List for order numbers" />
     <MESSAGE value="Create a List for order strings" />
     <MESSAGE value="Create a request of a book on Google." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a request of a book on Google." />
+    <MESSAGE value="Create a request of a Digital Coin." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a request of a Digital Coin." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
