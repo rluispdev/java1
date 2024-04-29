@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a List for order strings">
-      <change afterPath="$PROJECT_DIR$/src/pratic12/GoogleBooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic12/Main12.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a request of a book on Google.">
+      <change afterPath="$PROJECT_DIR$/src/pratic12/Criptos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic12/GoogleBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic12/GoogleBooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     "Application.BookOfTables.executor": "Run",
     "Application.ComparacaoDeStrings.executor": "Run",
     "Application.CompareNumber.executor": "Run",
+    "Application.Criptos.executor": "Run",
     "Application.Estudos.executor": "Coverage",
     "Application.Factor.executor": "Run",
     "Application.GoogleBooks.executor": "Run",
@@ -84,7 +85,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GoogleBooks">
+  <component name="RunManager" selected="Application.Criptos">
+    <configuration name="Criptos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic12.Criptos" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratic12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoogleBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic12.GoogleBooks" />
       <module name="pratic1" />
@@ -137,34 +151,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoPerecivel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic9.Product.ProdutoPerecivel" />
-      <module name="pratic1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratic9.Product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.Criptos" />
       <item itemvalue="Application.GoogleBooks" />
       <item itemvalue="Application.Main11" />
       <item itemvalue="Application.Main10" />
       <item itemvalue="Application.Main9" />
-      <item itemvalue="Application.ProdutoPerecivel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Criptos" />
         <item itemvalue="Application.GoogleBooks" />
         <item itemvalue="Application.Main11" />
         <item itemvalue="Application.Main10" />
         <item itemvalue="Application.Main9" />
-        <item itemvalue="Application.ProdutoPerecivel" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714043979208</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Create a request of a book on Google.">
+      <option name="closed" value="true" />
+      <created>1714398298124</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1714398298124</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create new class for learning: Set and Get. Not print methods set." />
     <MESSAGE value="Create new class for learning: Set and Get.Using a constructor." />
     <MESSAGE value="Create new Super class Car." />
     <MESSAGE value="Update Super class Car. Create Model&#10;and called in MainP6." />
@@ -465,7 +473,8 @@
     <MESSAGE value="Create Class Bank that return a most account." />
     <MESSAGE value="Create a List for order numbers" />
     <MESSAGE value="Create a List for order strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a List for order strings" />
+    <MESSAGE value="Create a request of a book on Google." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a request of a book on Google." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

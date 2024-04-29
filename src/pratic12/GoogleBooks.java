@@ -25,7 +25,7 @@ public class GoogleBooks {
             String encodedMyBook = URLEncoder.encode(myBook, "UTF-8");
             String encodedAuthor = URLEncoder.encode(bookAuthor, "UTF-8");
 
-            apiURL= "https://www.googleapis.com/books/v1/volumes?q=intitle:[" + encodedMyBook + "inauthor:" + encodedAuthor + "]&key=AIzaSyAnxyDJZmZAFCQHuCVNLC0tARz-q6jyfsQ";
+            apiURL= "https://www.googleapis.com/books/v1/volumes?q=intitle:" + encodedMyBook + "inauthor:" + encodedAuthor + "&key=AIzaSyAnxyDJZmZAFCQHuCVNLC0tARz-q6jyfsQ";
 
             System.out.println(apiURL);
 
