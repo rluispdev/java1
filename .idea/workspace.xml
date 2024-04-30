@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Create a request of a Recipes.">
-      <change afterPath="$PROJECT_DIR$/src/pratic13/Main13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic13/Person.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Import data of Json with GSON.">
+      <change afterPath="$PROJECT_DIR$/src/pratic13/Editora/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic13/Editora/ConvertJSONAlignedForObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic13/Editora/Editor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic12/Main12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pratic13/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic13/Main13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Application.GoogleBooks.executor": "Run",
     "Application.Main10.executor": "Run",
     "Application.Main11.executor": "Run",
+    "Application.Main13.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -93,7 +95,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main13">
+  <component name="RunManager" selected="Application.ConvertJSONAlignedForObject">
     <configuration name="ConsultaLivroGoogleBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic12.ConsultaLivroGoogleBooks" />
       <module name="pratic1" />
@@ -113,6 +115,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pratic12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertJSONAlignedForObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic13.Editora.ConvertJSONAlignedForObject" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pratic13.Editora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,34 +161,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic12.Recipe" />
-      <module name="pratic1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratic12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.ConvertJSONAlignedForObject" />
       <item itemvalue="Application.Main13" />
       <item itemvalue="Application.ConsultaLivroGoogleBooks" />
       <item itemvalue="Application.ConsultaReceitaTheMealDB" />
       <item itemvalue="Application.GoogleBooks" />
-      <item itemvalue="Application.Recipe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConvertJSONAlignedForObject" />
         <item itemvalue="Application.Main13" />
         <item itemvalue="Application.ConsultaLivroGoogleBooks" />
         <item itemvalue="Application.ConsultaReceitaTheMealDB" />
         <item itemvalue="Application.GoogleBooks" />
-        <item itemvalue="Application.Recipe" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714408968719</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Import data of Json with GSON.">
+      <option name="closed" value="true" />
+      <created>1714476969617</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1714476969617</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update Super class Car. Create Model&#10;and called in MainP6." />
     <MESSAGE value="Create learning with Class Animals, Bank and Number Prime." />
     <MESSAGE value="Organizer pratic 6" />
     <MESSAGE value="Organizer pratica 1 and Create ConverterCurrency" />
@@ -498,7 +507,8 @@
     <MESSAGE value="Create a request of a book on Google." />
     <MESSAGE value="Create a request of a Digital Coin." />
     <MESSAGE value="Create a request of a Recipes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a request of a Recipes." />
+    <MESSAGE value="Import data of Json with GSON." />
+    <option name="LAST_COMMIT_MESSAGE" value="Import data of Json with GSON." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
