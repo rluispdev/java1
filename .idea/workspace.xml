@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Using a aligned Json.">
-      <change afterPath="$PROJECT_DIR$/src/Pratic15/Main15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pratic15/PrintText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pratic15/Title.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic14/DivideNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic14/Password/ShowPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic14/Password/ShowPasswordInvalidException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Print text and Json.">
+      <change afterPath="$PROJECT_DIR$/src/Pratic15/Car/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pratic15/Car/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pratic15/Main15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pratic15/Main15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +56,7 @@
     "Application.Estudos.executor": "Coverage",
     "Application.Factor.executor": "Run",
     "Application.GoogleBooks.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Main10.executor": "Run",
     "Application.Main11.executor": "Run",
     "Application.Main13.executor": "Run",
@@ -103,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main15">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DivideNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pratic14.DivideNumber" />
       <module name="pratic1" />
@@ -117,12 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pratic15.Car.Main" />
+      <module name="pratic1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pratic15.Car.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pratic15.Main15" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pratic15.*" />
+          <option name="PATTERN" value="Pratic15.Car.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,7 +145,7 @@
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pratic15.*" />
+          <option name="PATTERN" value="Pratic15.Car.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,34 +166,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic14.SumNumbers" />
-      <module name="pratic1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pratic14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main15" />
       <item itemvalue="Application.PrintText" />
       <item itemvalue="Application.DivideNumber" />
       <item itemvalue="Application.ShowPassword" />
-      <item itemvalue="Application.SumNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main15" />
         <item itemvalue="Application.PrintText" />
         <item itemvalue="Application.ShowPassword" />
         <item itemvalue="Application.DivideNumber" />
-        <item itemvalue="Application.SumNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714477855720</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Print text and Json.">
+      <option name="closed" value="true" />
+      <created>1714561898241</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1714561898241</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Organizer pratic 6" />
     <MESSAGE value="Organizer pratica 1 and Create ConverterCurrency" />
     <MESSAGE value=" Create CalculatorRoomRect" />
     <MESSAGE value=" Create Book Table" />
@@ -524,7 +528,8 @@
     <MESSAGE value="Create a request of a Recipes." />
     <MESSAGE value="Import data of Json with GSON." />
     <MESSAGE value="Using a aligned Json." />
-    <option name="LAST_COMMIT_MESSAGE" value="Using a aligned Json." />
+    <MESSAGE value="Print text and Json." />
+    <option name="LAST_COMMIT_MESSAGE" value="Print text and Json." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
