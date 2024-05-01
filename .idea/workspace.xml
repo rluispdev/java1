@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Import data of Json with GSON.">
-      <change afterPath="$PROJECT_DIR$/src/pratic13/Editora/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic13/Editora/ConvertJSONAlignedForObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratic13/Editora/Editor.java" afterDir="false" />
+    <list default="true" id="68331f5b-a157-4266-800c-440ee378f596" name="Changes" comment="Using a aligned Json.">
+      <change afterPath="$PROJECT_DIR$/src/Pratic15/Main15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pratic15/PrintText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pratic15/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic14/DivideNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic14/Password/ShowPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pratic14/Password/ShowPasswordInvalidException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pratic13/Main13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pratic13/Main13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +54,16 @@
     "Application.CompareNumber.executor": "Run",
     "Application.ConsultaLivroGoogleBooks.executor": "Run",
     "Application.ConsultaReceitaTheMealDB.executor": "Run",
+    "Application.ConvertJSONAlignedForObject.executor": "Run",
     "Application.Criptos.executor": "Run",
+    "Application.DivideNumber.executor": "Run",
     "Application.Estudos.executor": "Coverage",
     "Application.Factor.executor": "Run",
     "Application.GoogleBooks.executor": "Run",
     "Application.Main10.executor": "Run",
     "Application.Main11.executor": "Run",
     "Application.Main13.executor": "Run",
+    "Application.Main15.executor": "Run",
     "Application.Main7.executor": "Run",
     "Application.Main8.executor": "Run",
     "Application.Main9.executor": "Run",
@@ -69,12 +74,15 @@
     "Application.PairOdd.executor": "Run",
     "Application.Perfil.executor": "Run",
     "Application.PraticTwo.executor": "Run",
+    "Application.PrintText.executor": "Run",
     "Application.ProdutoPerecivel.executor": "Run",
     "Application.Recipe.executor": "Run",
     "Application.ResquestNumber.executor": "Run",
     "Application.Saudacao.executor": "Run",
+    "Application.ShowPassword.executor": "Run",
     "Application.Soma.executor": "Run",
     "Application.Subtracao.executor": "Run",
+    "Application.SumNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -95,13 +103,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConvertJSONAlignedForObject">
-    <configuration name="ConsultaLivroGoogleBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic12.ConsultaLivroGoogleBooks" />
+  <component name="RunManager" selected="Application.Main15">
+    <configuration name="DivideNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic14.DivideNumber" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic12.*" />
+          <option name="PATTERN" value="pratic14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultaReceitaTheMealDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic12.ConsultaReceitaTheMealDB" />
+    <configuration name="Main15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pratic15.Main15" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic12.*" />
+          <option name="PATTERN" value="Pratic15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertJSONAlignedForObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic13.Editora.ConvertJSONAlignedForObject" />
+    <configuration name="PrintText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pratic15.PrintText" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic13.Editora.*" />
+          <option name="PATTERN" value="Pratic15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleBooks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic12.GoogleBooks" />
+    <configuration name="ShowPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic14.Password.ShowPassword" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic12.*" />
+          <option name="PATTERN" value="pratic14.Password.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pratic13.Main13" />
+    <configuration name="SumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pratic14.SumNumbers" />
       <module name="pratic1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pratic13.*" />
+          <option name="PATTERN" value="pratic14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +171,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.PraticTwo" />
-      <item itemvalue="Application.ConvertJSONAlignedForObject" />
-      <item itemvalue="Application.Main13" />
-      <item itemvalue="Application.ConsultaLivroGoogleBooks" />
-      <item itemvalue="Application.ConsultaReceitaTheMealDB" />
-      <item itemvalue="Application.GoogleBooks" />
+      <item itemvalue="Application.Main15" />
+      <item itemvalue="Application.PrintText" />
+      <item itemvalue="Application.DivideNumber" />
+      <item itemvalue="Application.ShowPassword" />
+      <item itemvalue="Application.SumNumbers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConvertJSONAlignedForObject" />
-        <item itemvalue="Application.Main13" />
-        <item itemvalue="Application.ConsultaLivroGoogleBooks" />
-        <item itemvalue="Application.ConsultaReceitaTheMealDB" />
-        <item itemvalue="Application.GoogleBooks" />
+        <item itemvalue="Application.Main15" />
+        <item itemvalue="Application.PrintText" />
+        <item itemvalue="Application.ShowPassword" />
+        <item itemvalue="Application.DivideNumber" />
+        <item itemvalue="Application.SumNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714476969617</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Using a aligned Json.">
+      <option name="closed" value="true" />
+      <created>1714477855720</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1714477855720</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create learning with Class Animals, Bank and Number Prime." />
     <MESSAGE value="Organizer pratic 6" />
     <MESSAGE value="Organizer pratica 1 and Create ConverterCurrency" />
     <MESSAGE value=" Create CalculatorRoomRect" />
@@ -508,7 +523,8 @@
     <MESSAGE value="Create a request of a Digital Coin." />
     <MESSAGE value="Create a request of a Recipes." />
     <MESSAGE value="Import data of Json with GSON." />
-    <option name="LAST_COMMIT_MESSAGE" value="Import data of Json with GSON." />
+    <MESSAGE value="Using a aligned Json." />
+    <option name="LAST_COMMIT_MESSAGE" value="Using a aligned Json." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
